@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Calculator BMI</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="minus">minus</string>
+    <string name="plus">plus</string>
+    <string name="_18_5_25_kg_m2">18.5 – 25 kg/m2</string>
+    <string name="hasil_kamu">Hasil Kamu</string>
+    <string name="rentang_normal_bmi">Rentang Normal BMI</string>
+    <string name="usia_kamu">Usia Kamu</string>
+    <string name="hitung_ulang">Hitung Ulang</string>
+    <string name="hitung_hasil">Hitung Hasil</string>
+    <string name="_19">19</string>
+    <string name="usia">Usia</string>
+    <string name="_50">50</string>
+    <string name="berat_badan">Berat Badan</string>
+    <string name="_0cm">0cm</string>
+    <string name="tinggi_badan">Tinggi Badan</string>
+    <string name="wanita">Wanita</string>
+    <string name="pria">Pria</string>
+    <string name="todo">TODO</string>
+</resources>

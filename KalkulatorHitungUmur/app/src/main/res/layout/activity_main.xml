@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtUmur"
+        android:ems="10"
+        android:gravity="center"
+        android:padding="25dp"
+        android:hint="@string/input_tahun_kelahiran_anda"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="196dp"
+        android:autofillHints="" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvUmur"
+        android:text="@string/umur_anda"
+        android:gravity="left"
+        android:padding="25dp"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="288dp"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnHitung"
+        android:text="@string/hitung"
+        android:textStyle="bold"
+        android:padding="20dp"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="339dp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/calculator_logo"
+        android:contentDescription="@string/todo"
+        />
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KalkulatorHitungUmur</string>
+    <string name="hitung">Hitung</string>
+    <string name="umur_anda">Umur Anda =</string>
+    <string name="input_tahun_kelahiran_anda">Input Tahun Kelahiran Anda</string>
+    <string name="todo">TODO</string>
+    <string name="tahun_tidak_valid">Tahun tidak Valid</string>
+</resources>

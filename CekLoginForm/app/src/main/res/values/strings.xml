@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CekLoginForm</string>
+    <string name="masukkan_username">Masukkan Username</string>
+    <string name="masukkan_password">Masukkan Password</string>
+    <string name="sign_in_text">LOGIN</string>
+    <string name="show_password">Tampilkan Password</string>
+    <string name="login_form">Form Login</string>
+    <string name="alert_satu">Login Berhasil</string>
+    <string name="alert_dua">Password Anda Salah</string>
+    <string name="alert_tiga">Username Anda Tidak Terdaftar</string>
+    <string name="alert_lima">Data Belum Lengkap</string>
+    <string name="alert_enam">Wajib Diisi</string>
+</resources>
