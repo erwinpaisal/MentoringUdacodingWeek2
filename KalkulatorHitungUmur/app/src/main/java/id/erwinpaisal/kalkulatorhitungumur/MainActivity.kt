@@ -3,7 +3,9 @@ package id.erwinpaisal.kalkulatorhitungumur
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
+import java.lang.NumberFormatException
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
@@ -13,13 +15,18 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         btnHitung.setOnClickListener {
-            val tahunLahir = txtUmur.text.toString()
-            val tahun: Int = Calendar.getInstance().get(Calendar.YEAR)
-                        if (tahunLahir.toIntOrNull() != null) {
-                val umur = tahun - tahunLahir.toInt()
-                tvUmur.text = "Umur Anda = $umur Tahun"
-            } else {
-                tvUmur.text = getString(R.string.tahun_tidak_valid)
+            try {
+                var tahunLahir = txtUmur.text.toString().toInt()
+                var tahun: Int = Calendar.getInstance().get(Calendar.YEAR)
+                var umur = tahun - tahunLahir
+
+                if (tahunLahir > tahun) {
+                    tvUmur.text = getString(R.string.tahun_tidak_valid)
+                } else {
+                    tvUmur.text = "Anda Berumur $umur Tahun"
+                }
+            } catch (e: NumberFormatException){
+                Toast.makeText(this,"Harap Input Angka!!", Toast.LENGTH_LONG).show()
             }
         }
     }
